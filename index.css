@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+h1{
+   
+    color: pink;
+    font-size: 45px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: aqua;
+    font-size: 32px;
+}
+
+section:first-of-type h2:first-of-type:hover {
+    color: red;
+    text-decoration: none;
+ }
+ /*
+h1:hover, h2:first-of-type:hover {
+   color: red;
+   text-decoration: none;
+}
+*/
+p {
+    color: white;
+}
+
+a[href^="https://"] {
+    color: yellow;
+}
+
+a[href="#1er_titre"] {
+    color: purple;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 350px;
+    height: 150px;
+}
