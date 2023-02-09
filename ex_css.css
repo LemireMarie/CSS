@@ -1,0 +1,19 @@
+#titre1 {
+    color: red;
+}
+section {
+    background-color: blue;
+}
+h1:hover {
+    color: brown;
+}
+a[href^="https://"] {
+    text-decoration: none;
+}
+.p2 {
+    color: purple;
+}
+/*
+p:nth-child(even) {
+    color: purple;
+}*/
