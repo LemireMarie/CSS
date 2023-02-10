@@ -1,4 +1,4 @@
-#titre1 {
+/*#titre1 {
     color: red;
 }
 section {
@@ -13,7 +13,28 @@ a[href^="https://"] {
 .p2 {
     color: purple;
 }
+a[href^="#"] {
+    color: black ;
+}
 /*
-p:nth-child(even) {
-    color: purple;
+section:nth-child(even) {
+    color: purple; => ça selectionne les enfants de la section.
+}
+section:nth-of-type(2n) {} => ça selectionne un sur deux.*/
+
+
+/*
+main section:first-of-type {
+    background-color: green;
+}
+header img {
+    width: 600px;
+    height: 800px;
+    border-radius: 10px;
+}
+section:nth-of-type(2) p:first-of-type a[href^="#"] {
+    color: orange;
+}
+section:nth-of-type(2):hover p:nth-of-type(2) {
+    background-color: red;
 }*/
